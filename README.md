@@ -6,7 +6,7 @@
 You're sections headers will be used to reference location of destination.
 
 - [Description](#description)
-- [Description of data used for Model:](#Description-of-Data-used-for-Model:)
+- [Data Description](#data-description)
 - [References](#references)
 - [Author Info](#author-info)
 
@@ -27,7 +27,7 @@ This is Machine Learning model used for predicting real estate prices with given
 
 ---
 
-## Description of data used for Model:
+## Data Description
 
 1. Title: Boston Housing Data
 
