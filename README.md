@@ -6,7 +6,7 @@
 You're sections headers will be used to reference location of destination.
 
 - [Description](#description)
-- [Features](#features)
+- [Description of Data used for Model:](#Description of Data used for Model:)
 - [References](#references)
 - [Author Info](#author-info)
 
@@ -14,28 +14,70 @@ You're sections headers will be used to reference location of destination.
 
 ## Description
 
-This application allows users to maintain a digital automated diary. Each user will be required to register on the system at registration time, the user will be provided id, which will be used to maintain the record of each unique user. Expense Tracker application which will keep a track of Income-Expense of a user on a day to day basis. This application takes Income from user and divides in daily expense allowed. Expense tracking application will generate report at the end of month to show Income-Expense via multiple graphs.
+This is Machine Learning model used for predicting real estate prices with given parameters. I used Random Forest Regression for getting optimizes result.
 
 
 
 #### Technologies
 
-- Technology 1 : For Front End , we used Java language for designing and framing the app. 
-- Technology 2 : For Back End , we used firebase for storing the user data which he will require for future references.
+- Language and IDE : For Framing the model I used Python language and used JupyterNotebook for framing and creating code.
+- Libraries : Sklearn, scipy, pandas and numpy.
 
 [Back To The Top](#read-me-template)
 
 ---
 
-## Features
+## Description of Data used for Model:
 
-- Record Incomes and Expenses 
-- Each transcation has unique ID and Type
-- Income vs Expense comparison with Graph
-- Edit/Delete Income and Expense Transaction
-- List of Income and Expense Transaction
-- Date and Time to each Trascantion
-- Shows last login date and time
+1. Title: Boston Housing Data
+
+2. Sources:
+   (a) Origin:  This dataset was taken from the StatLib library which is
+                maintained at Carnegie Mellon University.
+   (b) Creator:  Harrison, D. and Rubinfeld, D.L. 'Hedonic prices and the 
+                 demand for clean air', J. Environ. Economics & Management,
+                 vol.5, 81-102, 1978.
+   (c) Date: July 7, 1993
+
+3. Past Usage:
+   -   Used in Belsley, Kuh & Welsch, 'Regression diagnostics ...', Wiley, 
+       1980.   N.B. Various transformations are used in the table on
+       pages 244-261.
+    -  Quinlan,R. (1993). Combining Instance-Based and Model-Based Learning.
+       In Proceedings on the Tenth International Conference of Machine 
+       Learning, 236-243, University of Massachusetts, Amherst. Morgan
+       Kaufmann.
+
+4. Relevant Information:
+
+   Concerns housing values in suburbs of Boston.
+
+5. Number of Instances: 506
+
+6. Number of Attributes: 13 continuous attributes (including "class"
+                         attribute "MEDV"), 1 binary-valued attribute.
+
+7. Attribute Information:
+
+    1. CRIM      per capita crime rate by town
+    2. ZN        proportion of residential land zoned for lots over 
+                 25,000 sq.ft.
+    3. INDUS     proportion of non-retail business acres per town
+    4. CHAS      Charles River dummy variable (= 1 if tract bounds 
+                 river; 0 otherwise)
+    5. NOX       nitric oxides concentration (parts per 10 million)
+    6. RM        average number of rooms per dwelling
+    7. AGE       proportion of owner-occupied units built prior to 1940
+    8. DIS       weighted distances to five Boston employment centres
+    9. RAD       index of accessibility to radial highways
+    10. TAX      full-value property-tax rate per $10,000
+    11. PTRATIO  pupil-teacher ratio by town
+    12. B        1000(Bk - 0.63)^2 where Bk is the proportion of blacks 
+                 by town
+    13. LSTAT    % lower status of the population
+    14. MEDV     Median value of owner-occupied homes in $1000's
+
+8. Missing Attribute Values:  None.
 
 
 [Back To The Top](#read-me-template)
@@ -45,11 +87,8 @@ This application allows users to maintain a digital automated diary. Each user w
 
 ## References
 
-- [Learning Java](https://www.youtube.com/watch?v=aQatrXw0njs)
-- [Learning Android Studio](https://www.youtube.com/watch?v=mXjZQX3UzOs)
-- [Learning Firebase](https://www.tutorialspoint.com/firebase/index.htm)
-- [Video Tutorials](https://www.youtube.com/playlist?list=PLRxuR_G2-IzXkpWKSzLIxRjn869qUr8Zr)
-
+- [Housing data](https://archive.ics.uci.edu/ml/machine-learning-databases/housing/housing.data)
+- [Housing Name](https://archive.ics.uci.edu/ml/machine-learning-databases/housing/housing.names)
 
 [Back To The Top](#read-me-template)
 ---
