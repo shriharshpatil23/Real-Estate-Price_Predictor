@@ -6,7 +6,7 @@
 You're sections headers will be used to reference location of destination.
 
 - [Description](#description)
-- [Description of data used for Model](#Description of Data used for Model:)
+- [Description of data used for Model](#Description-of-Data-used-for-Model:)
 - [References](#references)
 - [Author Info](#author-info)
 
