@@ -27,7 +27,7 @@ This is Machine Learning model used for predicting real estate prices with given
 
 ---
 
-## Description of ata used for Model:
+## Description of data used for Model:
 
 1. Title: Boston Housing Data
 
